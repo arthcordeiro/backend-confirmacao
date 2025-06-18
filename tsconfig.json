@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "target": "es2021",                         /* Especifica a versão do ECMAScript para o código de saída */
+    "module": "commonjs",                       /* Especifica o sistema de módulo para o código de saída */
+    "lib": ["es2021"],                          /* Inclui as bibliotecas de declaração de tipo para ES2021 */
+    "outDir": "./dist",                         /* Onde o código compilado será colocado */
+    "rootDir": "./src",                         /* Onde o código fonte TypeScript está */
+    "strict": true,                             /* Habilita todas as opções de verificação de tipo estrito */
+    "esModuleInterop": true,                    /* Permite `import * as React from "react"` */
+    "skipLibCheck": true,                       /* Pula a verificação de tipo dos arquivos de declaração de bibliotecas */
+    "forceConsistentCasingInFileNames": true,   /* Garante que o casing dos nomes dos arquivos seja consistente */
+    "resolveJsonModule": true,                  /* Permite importar módulos com extensão .json */
+    "moduleResolution": "node",                 /* Estratégia de resolução de módulo */
+    "baseUrl": "./src"                          /* Define o diretório base para resolução de módulos não-relativos */
+  },
+  "include": ["src/**/*"],                      /* Quais arquivos TS incluir na compilação */
+  "exclude": ["node_modules", "dist"]           /* Quais arquivos TS excluir na compilação */
+}
