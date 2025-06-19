@@ -33,4 +33,9 @@ router.get('/confirmations', (req: Request, res: Response) => {
     return res.status(200).json(allConfirmations);
 });
 
+// Endpoint para validar a saude do serviço (GET)
+router.get('/health', (req: Request, res: Response) => {
+    return res.status(200).json({ message: 'UP' });
+});
+
 export default router;
