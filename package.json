@@ -2,14 +2,14 @@
   "name": "backend-confirmacao",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "scripts": {
-    "start": "node dist/index.js",
+    "start": "ts-node src/index.ts",
     "build": "tsc",
     "dev": "ts-node-dev --respawn --transpile-only src/index.ts"
   },
   "keywords": [],
-  "author": "",
+  "author": "Scriptsys Innovation",
   "license": "ISC",
   "dependencies": {
     "cors": "^2.8.5",
